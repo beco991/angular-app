@@ -1,0 +1,99 @@
+.form{
+    display: flex;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.subForm{
+    display: block;
+    margin: 20px;
+}
+
+input, label {
+    flex: none;
+    display: block;
+    width: 125px;
+    font-size: 1em;
+    white-space: nowrap;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.input{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: #185dcc;
+    height: 45px;
+    width: 200px;
+    border: #185dcc;
+    color: white;
+    margin-top: 21px;
+    border-radius: 5px;
+    }
+
+.masterDiv{
+    display: block;
+    text-align: center;
+    margin-top: 50px;    
+}
+
+label{
+    color: grey;
+}
+
+
+// table scss
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 30px 0px 30px;
+    background-color: #fff;
+    font-size: 14px;
+    }
+   table tr {
+    height: 40px;
+    background-origin: box;
+    border: solid thin;
+    border-color: grey;
+    text-decoration: double;;
+    }
+   table th {
+    background: #333;
+    color: #fff;
+    font-size: 18px;
+   }
+   table td, th {
+    padding: 6px 6px 6px 10px;
+    text-align: left;
+   }
+    
+   /* CSS3 Zebra Striping */
+   table tr:nth-of-type(even) {
+    background: #eee;
+   }
+    
+   .table{
+       justify-content: center;
+   }
+   .table-div{
+       justify-content: center;
+       display: flex;
+       position: center;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .delete{
+       text-align: right;
+   }
+   #dltbtn{
+       cursor: pointer;
+   }
+   
+
